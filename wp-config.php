@@ -32,22 +32,22 @@
 
 /** WordPress 数据库的名称 */
 
-define('DB_NAME', SAE_MYSQL_DB);
+define('DB_NAME', 'sfhy20');
 
 
 /** MySQL 数据库用户名 */
 
-define('DB_USER', SAE_MYSQL_USER);
+define('DB_USER', 'yang');
 
 
 /** MySQL 数据库密码 */
 
-define('DB_PASSWORD', SAE_MYSQL_PASS);
+define('DB_PASSWORD', 'yangsf');
 
 
 /** MySQL 主机 */
 
-define('DB_HOST', SAE_MYSQL_HOST_M.':'.SAE_MYSQL_PORT);
+define('DB_HOST', '127.0.0.1:3306');
 
 
 /** 创建数据表时默认的文字编码 */
