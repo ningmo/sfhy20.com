@@ -1,0 +1,8 @@
+name: sfhy20
+version: 2
+handle:
+- compress: if ( out_header["Content-type"] ~ "text/css" ) compress
+- compress: if ( out_header["Content-type"] ~ "text/javascript" ) compress
+- compress: if ( out_header["Content-type"] ~ "text/html" ) compress
+- rewrite: if(! is_file() && path ~ "^(.*)$") goto "/index.php/$1"
+- errordoc:  404 /

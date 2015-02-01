@@ -1,0 +1,4 @@
+User-agent: EasouSpider
+Disallow: /
+User-agent: YisouSpider
+Disallow: /
